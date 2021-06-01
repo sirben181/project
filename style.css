@@ -1,0 +1,32 @@
+*{box-sizing:border-box;}
+body{ background:#2a2c92;
+text-align:center;
+height:100%;
+}
+h2{transform:uppercase;
+text-align:center;
+color:#6f8520}
+.container{width:800px;
+    margin:30px auto;
+    color:#fff;
+    flex-direction: column;
+}
+.seconds,  .tens, #mins, #hrs{
+    font-size:2rem;
+    padding:0 5px;
+}
+button{text-align:center;
+    width:150px;
+    height:50px;
+    border-radius:5px;
+    background:transparent;
+    color:#fff;
+    margin-right:10px;
+    display:inline-flex;
+    padding:20px;
+    text-align:center;
+    outline:none;
+    border:#fff 2px solid;}
+    button:hover{
+        background:#050292
+    }
