@@ -1,0 +1,17 @@
+
+*{box-sizing:border-box;
+background-size:cover;}
+body{background-image:url(water.jpg); 
+justify-content:center;}
+h1{background:#015677;
+text-transform:uppercase;
+color:coral;
+text-align:center;}
+.container{display:flex;
+justify-content:center;}
+.big-text{font-size:3rem;
+margin-left:40px;
+margin-right:40px;}
+.container>div>span{margin-left:40px;
+margin-right:40px;
+font-size:2rem;}
